@@ -1,5 +1,5 @@
 # Import the CSV (it automatically detects headers)
-$data = Import-Csv -Path "data.csv"
+$data = Import-Csv -Path "test.csv"
 
 foreach ($row in $data) {
     Write-Host "Generating PDF for: $($row.name)"
@@ -8,7 +8,11 @@ foreach ($row in $data) {
     # In PowerShell, we wrap variables in $() inside strings
     typst compile `
         --input name="$($row.name)" `
-        --input amount="$($row.amount)" `
-        template.typ `
-        "Invoices/Invoice_$($row.name).pdf"
+        --input location="$($row.location)" `
+        --input start="$($row.start)" `
+        --input last="$($row.end)" `
+        --input duration="$($row.duration)" `
+        --input call="$($row.call)" `
+        main.typ `
+        ".\export\Picnic Day 112 Acceptance - $($row.name).pdf"
 }
