@@ -20,6 +20,7 @@ foreach ($row in $data) {
         --input end="$($row.End)" `
         --input duration="$($row.Duration)" `
         --input call="$($row.Call)" `
+        --input call="&($row.Check)" `
         main.typ `
         "$exportPath\$($row.Name) - Picnic Day 112 Acceptance.pdf"
 }

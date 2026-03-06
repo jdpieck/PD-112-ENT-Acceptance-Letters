@@ -15,6 +15,9 @@
     indent: 0.7em
   )
 
+
+  show link: underline
+  show link: set text(fill: blue.darken(50%))
   
   
   body
