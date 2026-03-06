@@ -1,5 +1,5 @@
 # Import the CSV (it automatically detects headers)
-$data = Import-Csv -Path "test.csv"
+$data = Import-Csv -Path "data.csv"
 
 # Check if the export directory exists; if not, create it
 $exportPath = ".\export"
