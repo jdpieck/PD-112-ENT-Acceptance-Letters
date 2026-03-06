@@ -9,17 +9,17 @@ if (-not (Test-Path -Path $exportPath)) {
 }
 
 foreach ($row in $data) {
-    Write-Host "Generating PDF for: $($row.name)"
+    Write-Host "Generating PDF for: $($row.Name)"
     
     # Use 'typst compile' with the --input flags
     # In PowerShell, we wrap variables in $() inside strings
     typst compile `
-        --input name="$($row.name)" `
-        --input location="$($row.location)" `
-        --input start="$($row.start)" `
-        --input end="$($row.end)" `
-        --input duration="$($row.duration)" `
-        --input call="$($row.call)" `
+        --input name="$($row.Name)" `
+        --input location="$($row.Location)" `
+        --input start="$($row.Start)" `
+        --input end="$($row.End)" `
+        --input duration="$($row.Duration)" `
+        --input call="$($row.Call)" `
         main.typ `
-        "$exportPath\$($row.name) - Picnic Day 112 Acceptance.pdf"
+        "$exportPath\$($row.Name) - Picnic Day 112 Acceptance.pdf"
 }
