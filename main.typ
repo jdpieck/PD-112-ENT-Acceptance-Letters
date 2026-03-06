@@ -9,7 +9,9 @@
 #let email = link("mailto:entertainment@picnicday.ucdavis.edu", [entertainment\@picnicday.ucdavis.edu])
 #let phone = "(530) 752-8320"
 
-#set text(12pt)
+#import "template.typ": *
+
+#show: template
 
 Dear #name,
 
