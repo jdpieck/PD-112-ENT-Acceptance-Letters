@@ -1,4 +1,4 @@
-# 🧺 Picnic Day 112 Acceptance Generator
+# Picnic Day 112 Acceptance Generator
 
 This project automates the generation of acceptance PDF documents using **Typst** and a **PowerShell** script. It reads data from a CSV file and injects it into a Typst template.
 
