@@ -1,7 +1,7 @@
 #let name = sys.inputs.at("name", default: "Pinic Day Performer")
 #let call-time = sys.inputs.at("call", default: "12:00PM")
 #let start-time = sys.inputs.at("start", default: "1:00 PM")
-#let end-time = sys.inputs.at("last", default: "2:00 PM")
+#let end-time = sys.inputs.at("end", default: "2:00 PM")
 #let duration = sys.inputs.at("duration", default: "1:00")
 #let location = sys.inputs.at("location", default: "Memorial Union Stage")
 // #let notes = sys.inputs.at("notes", default: "")

@@ -1,6 +1,13 @@
 # Import the CSV (it automatically detects headers)
 $data = Import-Csv -Path "test.csv"
 
+# Check if the export directory exists; if not, create it
+$exportPath = ".\export"
+if (-not (Test-Path -Path $exportPath)) {
+    New-Item -ItemType Directory -Path $exportPath
+    Write-Host "Created missing export directory." -ForegroundColor Cyan
+}
+
 foreach ($row in $data) {
     Write-Host "Generating PDF for: $($row.name)"
     
@@ -10,9 +17,9 @@ foreach ($row in $data) {
         --input name="$($row.name)" `
         --input location="$($row.location)" `
         --input start="$($row.start)" `
-        --input last="$($row.end)" `
+        --input end="$($row.end)" `
         --input duration="$($row.duration)" `
         --input call="$($row.call)" `
         main.typ `
-        ".\export\Picnic Day 112 Acceptance - $($row.name).pdf"
+        "$exportPath\$($row.name) - Picnic Day 112 Acceptance.pdf"
 }
