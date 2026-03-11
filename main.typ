@@ -32,7 +32,7 @@
   float: true,
   image(
     "Untitled_Artwork 30.png", 
-    width: 8.25in,
+    width: 8.3in,
     alt: "The Journey Home \n Pinic Day 2026 | UC Davis & ASUCD"
   ) 
 )
@@ -63,7 +63,7 @@ Your performance is on Picnic Day 112, Saturday April 18th, 2026 at the followin
   check-in-time, [Check-In Time], [Please check in at the tent near the performance stage],
   call-time, [Call Time], [Please have your full group with their equipment present at the the #location. We will begin setting up shortly after this time.],
   start-time, [Start Time], [The time when your performance begins],
-  end-time, [End Time], [The time when your performance should end. Please make sure to keep your performance under #duration [hh:mm].],
+  end-time, [End Time], [The time when your performance should end. Please make sure to keep your performance under #duration [min:sec].],
 )
 
 Stage times and locations are final and were allocated based on logistical needs. As a courtesy to other performing groups and Picnic Day guests, please plan your performance accordingly so that you do not go beyond your allotted time-slot. Please also remember this is a family friendly event and your performance must be appropriate for all age groups.
@@ -91,7 +91,7 @@ Please keep this letter as confirmation and for your own records. With this conf
 
 As part of the Picnic Day Board of Directors for this year's event, I would like to extend my appreciation and excitement for your participation. Picnic Day 112 will be the show of a lifetime.
 
-If you have any questions or concerns, please feel free to contact me at #email or (530) 752-8320.
+// If you have any questions or concerns, please feel free to contact me at #email or (530) 752-8320.
 
 
 
@@ -100,4 +100,4 @@ Best regards,
 *Divyatmika Mohanty* \
 _Picnic Day 112 Entertainment Director_ \
 entertainment\@picnicday.ucdavis.edu \
-(530) 752- 8320
+(530) 752-8320

@@ -10,7 +10,7 @@
             rest: .75in),
     footer-descent: 14%,
     footer: [
-      #set text(.8em)
+      #set text(.8em, fill: luma(30%))
       Picnic Day \
       349 Memorial Union, One Shields Avenue #h(1fr) http://picnicday.ucdavis.edu \
       Davis, CA 95616 #h(1fr) Phone: (530) 752-8320
@@ -19,7 +19,8 @@
   
   set text(
     12pt,
-    font: "Cantarell",
+    // font: "Cantarell",
+    font: "Albert Sans"
   )
 
   set list(
