@@ -50,7 +50,7 @@ This document contains relevant information to your performance including times,
 
 With this document, you should have received a copy of your responses to the universal application form. *If your groups equipment/setup needs have changed, please let us know ASAP! *
 
-At a later date, waivers will be sent to the primary contact of each performer via email. Please sign and return the waiver via DocuSign by March 22nd, 2026 at 5:00 PM at the latest. If you or your performance group do not complete the waiver by this date, you will be asked to forfeit your place at Picnic Day this year.
+At a later date, waivers will be sent to the primary contact of each performer via email. Please sign and return the waiver by March 22nd, 2026 at 5:00 PM at the latest. If you or your performance group do not complete the waiver by this date, you will be asked to forfeit your place at Picnic Day this year.
 
 
 == Performance Information
